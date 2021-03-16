@@ -1,5 +1,19 @@
 # Master
 
+# 2.2.4 - 15 March, 2021
+- a fix bug: route matcher
+- Example:
+
+``
+/api/v1/sar/reports/:requestId
+/api/v1/sar/reports/bulk
+``
+
+For route /api/v1/sar/reports/bulk the matcher was return route /api/v1/sar/reports/:requestId
+
+The expected result is /api/v1/sar/reports/bulk
+
+
 # 2.2.3 - 23 January 2021
  - a fixed bug: when response is with additionalProperties false,
    The error was not shown or was not fit to specific field.
