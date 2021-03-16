@@ -18,6 +18,7 @@ The expected result is /api/v1/sar/reports/bulk
  - a fixed bug: when response is with additionalProperties false,
    The error was not shown or was not fit to specific field.
 
+
 # 2.2.2 - 13 December, 2020
  - update "api-schema-builder" package to latest 
 
